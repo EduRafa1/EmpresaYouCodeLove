@@ -1,0 +1,469 @@
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	border: 0
+	font-family: 'Roboto Condensed', sans-serif
+html,body
+	height: 100%
+	
+
+.container
+	max-width: 1400px
+	margin: 0 auto
+	padding: 0 2%
+.clear
+	clear: both
+.mais-info
+		width: 400px
+		margin: 0 auto
+		text-align: center
+		border: 1px solid #ccc
+		margin-top: 100px
+		list-style-type: none
+		padding: 15px 0
+		color: black
+		border-radius: 10px
+		a
+			width: 100%
+			text-decoration: none
+			font-size: 18px
+			font-weight: bold
+			text-transform: uppercase
+			color: black
+.mais-info:hover
+		background-color: #5850b5
+		color: white
+.overlay
+	width: 100%
+	height: 100%
+	background-color: rgba(0,0,0,0.75)
+header.topo
+	width: 100%
+	height: 750px
+	background-image: url('../images/bg.webp')
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+
+
+
+	.logo
+		width: 100%
+		text-align: center
+		padding-top: 110px
+
+		img
+			width: 170px
+	.menu
+		width: 100% 
+		text-align: center
+		margin-top: 30px
+
+		i
+			font-size: 29px
+			color: white
+			cursor: pointer
+
+		.menu-lista
+			display: none
+			position: absolute
+			text-align: center
+			top: 0
+			left: 0
+			width: 320px
+			height: 750px
+			border-right: 3px solid black
+			border-bottom: 3px solid black
+			background-color: white
+			i
+				color: black
+				font-size: 30px
+				float: right
+				padding: 10px 20px
+			ul
+				padding-top: 100px
+				width: 100%
+				list-style-type: none
+				li
+					padding-top: 50px
+					width: 100%
+					a
+						color: black
+						text-decoration: none
+						font-size: 18px
+						text-transform: uppercase
+						padding: 10px 20px
+						width: 100%
+					a:hover
+						border-bottom: 1px solid #ccc
+
+
+	.info-header
+			color: white
+			text-align: center
+			margin-top: 40px
+			h1
+					font-weight: bold
+					font-size: 53px
+			h2
+					margin-top: 20px
+					font-size: 37px
+					font-weight: bold
+					margin-bottom: 20px
+			h2::after
+
+				content: '|'
+
+				margin-left: 5px
+				opacity: 1
+				animation: pisca .6s infinite
+				position: relative
+				top: -3px
+			span
+				font-size: 20px
+			a
+				color: white
+			
+
+
+// Apresentação // 
+
+
+section.apresentacao
+	width: 100%
+	padding: 100px 0
+	background-color: #f2faf9
+	>.container
+		max-width: 1100px
+		text-align: center
+	.apresentacao-info
+		width: 50%
+		margin-bottom: 30px
+		float: left
+		font-family: 'Roboto', sans-serif
+		
+		h1
+			
+			font-size: 35px
+			padding-bottom: 20px
+			font-weight: bold
+			text-align: left
+		p
+			font-size: 20px
+			font-weight: bold
+			color: #474747
+			text-align: left
+			
+	.apresentacao-img
+		width: 50%
+		float: left
+		text-align: center
+		img
+			width: 100%
+			max-width: 400px
+			border: 2px solid black
+			border-radius: 20px
+
+	li:hover
+		background-color: #5850b5
+		color: white
+	li:hover > a
+		color: white
+			
+
+	
+// Trabalhamos //
+
+section.trabalhamos
+	width: 100%
+	text-align: center
+	height: 900px
+	background-image: url('../images/bg.webp')
+	background-position: center
+	background-repeat: none
+	background-size: cover
+	background-attachment: fixed
+	color: white
+	>.overlay
+		background-color: rgba(0,0,0,0.85)
+	.titulo-trabalho
+		padding-top: 100px
+	
+		h1
+			font-size: 45px
+		h3
+			font-size: 45px
+		h3::after
+				content: '|'
+				margin-left: 5px
+				opacity: 1
+				animation: pisca .6s infinite
+				position: relative
+				top: -3px
+	.descricao-trabalho
+		padding-top: 50px			
+		font-size: 22px
+		width: 80%
+		margin: 0 auto
+	.produtos-trabalho
+		width: 100%
+		
+		padding-top: 90px
+		.produtos-wraper
+			padding: 30px 10px
+			height: 450px
+			width: 25%
+			float: left
+			h2	
+				margin: 20px 0
+				font-size: 30px
+			p
+				font-size: 20px
+				width: 80%
+				margin: 0 auto
+				line-height: 35px
+		.produtos-wraper:hover
+			background-color: rgba(0,0,0,0.5)
+
+//Estatisticas//
+section.estatisticas
+	width: 100%
+	padding-bottom: 90px
+	background-color: #f2faf9
+	padding-top: 100px
+	text-align: center
+	>.container
+		max-width: 1200px
+		h2
+			text-align: center
+			font-size: 35px
+			text-transform: uppercase
+			margin-bottom: 100px
+		.estatisticas-indi
+			width: 25%
+			float: left
+			padding: 20px
+			text-align: center
+			text-align: center
+			i
+				font-size: 50px
+				margin-bottom: 20px
+			p
+				font-size: 23px
+		.mais-info
+			margin: 0 auto
+			margin-top: 80px
+		 		
+			border: 1px solid #ccc
+		.mais-info:hover > a
+			color: white
+
+
+
+
+
+//Servicos//
+section.servicos
+	width: 100%
+
+	background-image: url('../images/bg.webp')
+	background-repeat: no-repeat
+	background-attachment: fixed
+	background-position: center
+	text-align: center
+
+
+	>.overlay
+		background-color: rgba(0,0,0,0.88)
+		padding-bottom: 100px
+		>.container
+			padding-top: 100px
+			h1
+				text-align: center
+				font-size: 45px
+				color: white
+				margin-bottom: 150px
+			
+
+			.servicos-indi
+				margin-top: 30px
+				width: 33.3%
+				float: left
+				text-align: center
+				padding: 20px
+				height: 400px
+				
+				i
+					font-size: 50px
+					color: #3d2da8
+					
+				h2
+					padding: 20px 0
+					font-size: 26px
+					text-transform: uppercase
+					color: white
+				p
+					font-size: 22px
+					width: 80%
+					margin: 0 auto
+					line-height: 35px
+					color: white
+		
+		.mais-info a
+			color: white
+
+
+section.contato
+	width: 100%
+	background-color: #f2faf9
+	padding-bottom: 160px 
+	>.container
+		max-width: 700px
+
+		h2
+			text-align: center
+			font-size: 35px
+			font-weight: normal
+			padding: 100px 0
+		form
+
+			text-align: center
+			input[type=text]
+				width: 49%
+
+				padding: 15px 0
+				float: left
+				border: 1px solid #ccc !important
+				margin-bottom: 20px
+				padding-left: 10px 
+			input[type=email]
+				width: 100%
+				padding: 15px 0
+				padding-left: 10px
+				border: 1px solid #ccc
+				margin-bottom: 20px
+				
+
+			input[type=text]:nth-child(1)
+				margin-right: 1%
+			input[type=text]:nth-child(2)
+				margin-left: 1%
+				float: right
+			input[type=text]:nth-child(4)
+				width: 100%
+			textarea
+				padding: 10px
+				width: 100%
+				height: 140px
+				border: 1px solid #ccc
+				resize: vertical
+			input[type=submit]
+				margin-top: 20px
+				width: 200px
+				padding: 10px 0
+				font-size: 20px
+				border: 1px solid #ccc
+				text-align: center
+				cursor: pointer
+			input[type=submit]:hover
+				background-color: #5850b5
+				color: white
+
+
+
+footer
+	padding: 20px 0
+	background-color: black
+	text-align: center
+	.links
+		margin-bottom: 20px
+		color: white
+		h4
+			padding-bottom: 10px
+		a
+			
+			color: white
+
+	span
+		color: white
+
+// Animation //
+@keyframes pisca
+	0%, 100% 
+		opacity: 1
+	50%
+		opacity: 0					
+
+
+//Media scren and max width
+@media screen and (max-width: 1135px)
+	.produtos-trabalho .produtos-wraper
+		width: 50% !important
+	section.trabalhamos
+		height: auto
+@media screen and (max-width: 850px)
+	section.estatisticas
+		height: auto !important
+		h2
+			font-size: 30px !important
+		.estatisticas-indi
+			width: 100% !important
+			margin: 50px 0 !important
+	section.servicos h1
+		margin-bottom: 80px !important
+
+	.servicos-indi
+		width: 100% !important
+		height: 300px !important
+@media screen and (max-width: 745px)
+	.apresentacao-info
+		width: 100% !important
+		h1
+			width: 95% 
+			margin: 0 auto
+			text-align: center
+		p
+			width: 95%
+			margin: 0 auto
+			text-align: center
+	.apresentacao-img 
+		width: 100% !important
+@media screen and (max-width: 580px)
+	.info-header h1
+		font-size: 36px !important
+	.info-header h2
+		font-size: 30px !important
+	.info-header span
+		font-size: 17px !important
+	.mais-info
+		padding: 14px 60px !important
+	.descricao-trabalho
+		width: 95% !important
+		font-size: 20px !important
+	.produtos-trabalho .produtos-wraper
+		padding: 0 !important
+		width: 100% !important
+		height: 320px !important
+		p
+			width: 95% !important
+	section.servicos
+		h1
+			font-size: 32px !important
+		.servicos-indi p
+			width: 94% !important
+
+
+
+/* Anime*/
+
+[data-anime]
+	opacity: 0
+	transition: .3s
+[data-anime="left"]
+	transform: translate3d(-50px , 0px , 0px)
+[data-anime="right"]
+	transform: translate3d(50px , 0px, 0px)
+[data-anime].animate
+	opacity: 1
+	transform: translate3d(0px,0px,0px)
